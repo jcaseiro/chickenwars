@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79876777-2673-4284-9BFD-8CFCFDA39462</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChickenWars</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
+		<string>https://github.com/jcaseiro/chickenwars</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChickenWars/ChickenWars.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jcaseiro/chickenwars</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chickenwars</string>
+		</dict>
+	</array>
+</dict>
+</plist>
