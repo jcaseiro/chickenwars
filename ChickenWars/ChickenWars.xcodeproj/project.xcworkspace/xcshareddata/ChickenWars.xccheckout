@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>79876777-2673-4284-9BFD-8CFCFDA39462</string>
+	<string>18D10AFD-3CDD-453F-9E45-82E8C880A3F3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ChickenWars</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>3CD69CB2-88C2-41C9-B1FA-F3E70B92A276</key>
+		<string>ssh://github.com/jcaseiro/chickenwars.git</string>
 		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
 		<string>https://github.com/jcaseiro/chickenwars</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>ChickenWars/ChickenWars.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>3CD69CB2-88C2-41C9-B1FA-F3E70B92A276</key>
+		<string>../../../../ChickenWars</string>
 		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
 		<string>../../..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>chickenwars</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CD69CB2-88C2-41C9-B1FA-F3E70B92A276</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChickenWars</string>
 		</dict>
 	</array>
 </dict>
