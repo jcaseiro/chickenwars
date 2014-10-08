@@ -13,7 +13,6 @@
 		FC46806719DDCBF00044FC95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC46806519DDCBF00044FC95 /* InfoPlist.strings */; };
 		FC46806919DDCBF00044FC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46806819DDCBF00044FC95 /* main.m */; };
 		FC46806D19DDCBF00044FC95 /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46806C19DDCBF00044FC95 /* CWAppDelegate.m */; };
-		FC46807019DDCBF00044FC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC46806E19DDCBF00044FC95 /* Main.storyboard */; };
 		FC46807319DDCBF00044FC95 /* CWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46807219DDCBF00044FC95 /* CWViewController.m */; };
 		FC46807519DDCBF00044FC95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC46807419DDCBF00044FC95 /* Images.xcassets */; };
 		FC46807C19DDCBF00044FC95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46807B19DDCBF00044FC95 /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		FC46807E19DDCBF00044FC95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46806019DDCBF00044FC95 /* UIKit.framework */; };
 		FC46808619DDCBF00044FC95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC46808419DDCBF00044FC95 /* InfoPlist.strings */; };
 		FC46808819DDCBF00044FC95 /* ChickenWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46808719DDCBF00044FC95 /* ChickenWarsTests.m */; };
+		FCC878D219E45F640080B2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC878D019E45F640080B2FB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		FC46806A19DDCBF00044FC95 /* ChickenWars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChickenWars-Prefix.pch"; sourceTree = "<group>"; };
 		FC46806B19DDCBF00044FC95 /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
 		FC46806C19DDCBF00044FC95 /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
-		FC46806F19DDCBF00044FC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC46807119DDCBF00044FC95 /* CWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWViewController.h; sourceTree = "<group>"; };
 		FC46807219DDCBF00044FC95 /* CWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWViewController.m; sourceTree = "<group>"; };
 		FC46807419DDCBF00044FC95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		FC46808319DDCBF00044FC95 /* ChickenWarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChickenWarsTests-Info.plist"; sourceTree = "<group>"; };
 		FC46808519DDCBF00044FC95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC46808719DDCBF00044FC95 /* ChickenWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChickenWarsTests.m; sourceTree = "<group>"; };
+		FCC878D119E45F640080B2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,9 @@
 		FC46806219DDCBF00044FC95 /* ChickenWars */ = {
 			isa = PBXGroup;
 			children = (
+				FCC878D019E45F640080B2FB /* Main.storyboard */,
 				FC46806B19DDCBF00044FC95 /* CWAppDelegate.h */,
 				FC46806C19DDCBF00044FC95 /* CWAppDelegate.m */,
-				FC46806E19DDCBF00044FC95 /* Main.storyboard */,
 				FC46807119DDCBF00044FC95 /* CWViewController.h */,
 				FC46807219DDCBF00044FC95 /* CWViewController.m */,
 				FC46807419DDCBF00044FC95 /* Images.xcassets */,
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC878D219E45F640080B2FB /* Main.storyboard in Resources */,
 				FC46807519DDCBF00044FC95 /* Images.xcassets in Resources */,
 				FC46806719DDCBF00044FC95 /* InfoPlist.strings in Resources */,
-				FC46807019DDCBF00044FC95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,20 +283,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FC46806E19DDCBF00044FC95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC46806F19DDCBF00044FC95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC46808419DDCBF00044FC95 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FC46808519DDCBF00044FC95 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCC878D019E45F640080B2FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC878D119E45F640080B2FB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,6 +457,7 @@
 				FC46808D19DDCBF00044FC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC46808E19DDCBF00044FC95 /* Build configuration list for PBXNativeTarget "ChickenWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				FC46809019DDCBF00044FC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
